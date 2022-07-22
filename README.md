@@ -1,5 +1,7 @@
 # docker-build-mm-armhf
-create cross compile env to build mm armhf
+#create cross compile env to build mm armhf
+
+git clone git@gitlab.com:moxa/ibg/software/platform/linux/sys-gitlab/mxcore-package/modemmanager.git
 
 #build docker images
 docker build -t imagesname:tagname .
